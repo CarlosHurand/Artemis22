@@ -2,7 +2,7 @@
 Lenguaje de programación basado en la NASA
 
 ## Manual de Usuario 
-### Versión 1.0.1 beta
+### Versión 0.7 beta
 
 Gracias al equipo desarrollador de McScript:            
 - Carla Pérez Gavilán Del Castillo - A01023033
