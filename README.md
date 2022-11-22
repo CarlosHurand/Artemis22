@@ -4,7 +4,7 @@ Lenguaje de programación basado en la NASA
 ## Manual de Usuario 
 ### Versión 0.7 beta
 
-Gracias al equipo desarrollador de McScript:            
+Gracias al equipo desarrollador de Artemis22:            
 - Carla Pérez Gavilán Del Castillo - A01023033
 - Vicente Santamaría Velasco - A01421801
 - Juan Carlos Hurtado Andrade - A01025193  
