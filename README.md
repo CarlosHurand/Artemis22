@@ -37,8 +37,8 @@ Estando en la carpeta del código una vez descargado, correr los comandos en el 
 
 ```sh
 cd compilador  
-flex ./Lexico.l  
 bison -vd sintactico.y  
+flex ./Lexico.l  
 cd ..  
 gcc main.c ./compilador/*.c  
 ./a.exe  
