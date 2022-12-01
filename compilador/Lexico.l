@@ -15,6 +15,9 @@ char *p;
 
 %}
 
+%option noyywrap
+%option yylineno
+espacios [\t]+
 digito [0-9]
 car [a-zA-Z]
 num {digito}+
