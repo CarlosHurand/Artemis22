@@ -18,6 +18,13 @@ Proyecto final de la clase Diseño de compiladores.
 bison -vd sintactico.y 
 ```
 
+- Para correr el programa completo:
+```
+flex lexico.l
+gcc lex.yy.c sintactico.tab.c -o compilado
+.\compilado.exe
+```
+
 - Para correr el flex (extensión .l):
 ```
 flex lexico.l
@@ -25,11 +32,6 @@ gcc lex.yy.c
 .\a.exe
 ```
 
-- Para correr el programa completo:
-```
-gcc lex.yy.c sintactico.tab.c -o compilado
-.\compilado.exe
-```
 
 ### Comandos para correr el programa desde un archivo .txt: 
 
