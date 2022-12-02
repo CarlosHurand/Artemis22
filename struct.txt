@@ -1,0 +1,8 @@
+ufo cohete{
+    code num;
+    message hola;
+    space-coordinates loc;
+    num = "hola";
+}
+
+onesmallstep

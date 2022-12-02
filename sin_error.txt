@@ -1,0 +1,18 @@
+code Fibonacci(code n){
+    ignition(n < 0){ 
+        over("Incorrect input");
+    }ignition(n == 0){
+        return 0;
+    }ignition (n == 1 or n == 2){ 
+        return;
+    }abort{
+        code temp1;
+        temp1 = Fibonacci(n-1);
+        code temp2;
+        temp2 = Fibonacci(n-2);
+        code final;
+        final = temp1 + temp2;
+        return final;
+    }
+}
+onesmallstep
